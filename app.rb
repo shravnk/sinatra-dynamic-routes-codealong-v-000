@@ -20,7 +20,7 @@ class App < Sinatra::Base
 
   # Code your final two routes here:
 
-  get 'multiply/:one/:two' do
+  get '/multiply/:one/:two' do
     number1 = params[:one]
     number2 = params[:two]
     "Hi"
